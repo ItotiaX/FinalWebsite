@@ -1,0 +1,27 @@
+#dropdownMenu {
+  display: none;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  width: 600px;
+  padding: 0 100px;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+
+body{
+    background-image: url(wp11293062.jpg);
+}
+
+#linksContainer a {
+  opacity: 0;
+  display: block;
+  margin-bottom: 10px;
+  top: 50px;
+  left: 200px;
+}
